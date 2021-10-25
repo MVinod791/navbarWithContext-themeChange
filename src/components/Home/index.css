@@ -1,0 +1,45 @@
+/* Write your CSS here */
+.home-bg-container {
+  min-height: 100vh;
+}
+.home-bg-dark {
+  background-color: #000000;
+}
+.home-bg-light {
+  background-color: #ffffff;
+}
+.home-response-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 150px;
+}
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.home {
+  height: 150px;
+  width: 150px;
+}
+.home-heading {
+  font-size: 24px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  color: #171f46;
+}
+
+@media screen and (min-width: 768px) {
+  .home-heading {
+    font-size: 44px;
+  }
+}
+.home-dark-text {
+  color: #ffffff;
+}
+.home-light-text {
+  color: #171f46;
+}

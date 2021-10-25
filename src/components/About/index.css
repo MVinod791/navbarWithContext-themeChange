@@ -1,0 +1,43 @@
+/* Write your CSS here */
+.about-bg-container {
+  min-height: 100vh;
+}
+.about-bg-dark {
+  background-color: #000000;
+}
+.about-bg-light {
+  background-color: #ffffff;
+}
+.about-response-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 150px;
+}
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about {
+  height: 150px;
+  width: 150px;
+}
+.about-heading {
+  font-size: 24px;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+@media screen and (min-width: 768px) {
+  .about-heading {
+    font-size: 44px;
+  }
+}
+.about-heading-light {
+  color: #171f46;
+}
+.about-heading-dark {
+  color: #ffffff;
+}
